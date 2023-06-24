@@ -1,16 +1,12 @@
-# neurolab-flask
+## End To End ML Project
 
-![image](https://user-images.githubusercontent.com/115451707/196919992-edcfea8b-e3f6-4f35-9398-43be66b5622d.png)
-
-
-To run flask application 
-
+### created a environment
 ```
-python app.py
-```
+conda create -p venv python==3.8
 
-
-To access your flask application open new tab in and paste the url:
+conda activate venv/
 ```
-https://{your_url}.ineuron.app:5000/
+### Install all necessary libraries
+```
+pip install -r requirements.txt
 ```
